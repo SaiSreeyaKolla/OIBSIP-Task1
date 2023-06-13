@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "poppins", sans-serif;
+}
+body {
+  background-color: #fefae0;
+  display: grid;
+  height: 100vh;
+  place-items: center;
+}
+h3 {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Dancing Script", cursive;
+  padding-bottom: 20px;
+}
+.main {
+  width: 600px;
+  height: 550px;
+  background-color: #5f4b8bff;
+  position: absolute;
+  border: 5px solid black;
+  border-radius: 66px;
+  padding: 30px;
+}
+.class {
+  display: flex;
+}
+.calci {
+  text-orientation: upright;
+  writing-mode: vertical-lr;
+  font-size: 25px;
+  font-style: italic;
+  padding-left: 50px;
+  padding-top: 30px;
+  font-family: 'Boogaloo', cursive;}
+.main input[type="text"] {
+  width: 88%;
+  position: relative;
+  height: 80px;
+  top: 5px;
+  text-align: right;
+  padding: 10px 10px;
+  outline: none;
+  font-size: 50px;
+  border: 5px solid #e69a8dff;
+  display: flex;
+  margin: auto;
+  border-radius: 40px;
+  color: black;
+}
+.btn input[type="button"] {
+  width: 115px;
+  padding: 2px;
+  margin: 2px 0px;
+  position: relative;
+  left: 13px;
+  top: 20px;
+  height: 60px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: 0.5s;
+  background-color: #e69a8dff;
+  border-radius: 60px;
+  color: white;
+}
+.btn input[type="button"]:hover {
+  background-color: black;
+  color: white;
+}
